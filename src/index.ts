@@ -1,8 +1,6 @@
-import { loadEnv } from './env';
 import { selectAndHello } from './provider';
 
 async function main() {
-  loadEnv();
   try {
     const result = await selectAndHello();
 
